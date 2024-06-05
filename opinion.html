@@ -1,0 +1,36 @@
+</h1>
+    </header>
+    <div id="opinion" class="container">
+        <h2>意見</h2>
+        <div class="form-group">
+            <label for="pros">我們的優點 :</label>
+            <p>1. 界面簡潔清晰：網站設計簡單明瞭，使用者可以輕鬆找到所需信息，沒有過多的視覺干擾。</p>
+            <p>2. 圖片展示美觀：花束圖片質量高，清晰美觀，能有效吸引消費者的注意力。</p>
+            <p>3. 響應式設計：網站使用響應式設計，能在不同設備上流暢運行，提升了用戶體驗。</p>
+        </div>
+        <div class="form-group">
+            <label for="cons">我們的缺點 :</label>
+            <p>1. 缺少詳細產品描述：每個產品僅提供了簡單的名稱和價格，缺乏詳細的產品描述和花材介紹，消費者可能無法充分了解產品。</p>
+            <p>2. 聯絡方式單一：僅提供了基本的聯絡信息，缺乏即時聊天或客服功能，可能會影響消費者的購買決策。</p>
+            <p>3. 缺少社交媒體鏈接：沒有整合社交媒體鏈接，無法利用社交媒體平台進行推廣和與消費者互動。</p>
+        </div>
+        <form action="/submit_feedback" method="post">
+            <div class="form-group">
+                <label for="name">姓名:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">電子郵件:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="feedback">意見回饋:</label>
+                <textarea id="feedback" name="feedback" required></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit">提交</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
